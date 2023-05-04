@@ -1,0 +1,36 @@
+.stats
+    min-height: 343px
+    display: flex
+    justify-content: start
+    &__block
+        &_blue
+            min-height: 343px
+            width: 50%
+            background: url('../img/blue-background.png') center (center/cover) no-repeat
+            padding-right: 90px
+            padding-top: 66px
+            position: relative
+            .stats__content
+                position: absolute
+                right: 90px
+                text-align: right
+                color: white
+        &_light
+            padding-left: 90px
+            padding-top: 66px
+            width: 50%
+            min-height: 343px
+            background: url('../img/light-background.png') center (center/cover) no-repeat
+            .stats__content
+                color: $main-color
+    &__number
+        font-weight: 400
+        font-size: 48px
+        margin-bottom: 30px
+    &__text
+        font-weight: 500
+        font-size: 18px
+        line-height: 24px
+    &__content
+        img
+            margin-bottom: 24px
